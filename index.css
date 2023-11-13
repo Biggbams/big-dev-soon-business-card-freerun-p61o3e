@@ -1,4 +1,20 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
+.main-container {
+  background-color: #D2E3C8;
+}
+
+.middle-container {
+  background-color: whitesmoke;
+  height: 80vh;
+  width: 70%;
+  border-radius:30px;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
 .footer {
   position: absolute;
   bottom: 0;
