@@ -1,30 +1,36 @@
 /* This is an example CSS file, feel free to remove/edit it anytime */
 .main-container {
-  background-color: #D2E3C8;
+  background-color: #B4BDFF;
 }
 
 .middle-container {
   background-color: whitesmoke;
   height: 80vh;
   width: 70%;
-  border-radius:50px;
+  border-radius:40px;
   position: absolute;
   top: 10%;
   left: 15%;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.green-container {
-  background-color: rgb(7, 138, 7);
+.blue-container {
+  background-color: #83A2FF;
   height: 80vh;
   width: 30%;
   border-top-left-radius: inherit;
   border-bottom-left-radius: inherit;
   color: whitesmoke;
+  font-size: 80%;
 }
 
 .paragraph {
   padding-top: 80%;
+}
+
+.image {
+  height: 15px;
+  width: 15px;
 }
  
 hr {
@@ -35,10 +41,9 @@ hr {
 
 p{
   margin-bottom: 20px;
-  padding: 0;
+  padding-left: 30px;
   margin: 0;
   font-family: sans-serif;
-  margin-left: 10px;
 }
 
 .footer {
