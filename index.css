@@ -108,6 +108,7 @@ ul{
   bottom: 15%;
   right: 45%;
   z-index: 2;
+  transition: transform 0.3s ease-in-out;
 }
 
 .image {
@@ -159,4 +160,8 @@ hr {
 
 .footer span {
   font-size: 14px;
+}
+
+.user-photo:hover {
+  transform: scale(1.2); /* Scale the element on hover */
 }
